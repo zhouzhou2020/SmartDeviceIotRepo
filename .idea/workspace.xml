@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef2560c3-5ed9-426f-90b7-8ec604ff1bdf" name="Default Changelist" comment="" />
+    <list default="true" id="ef2560c3-5ed9-426f-90b7-8ec604ff1bdf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smartdeviceiot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/org/debug/smartdeviceiot/server/MainApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/org/debug/smartdeviceiot/server/controller/PaperController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/org/debug/smartdeviceiot/server/entity/Paper.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/server/target/" />
@@ -16,61 +30,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/pom.xml">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/MainApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="278">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Paper.java">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" selection-end-line="9" />
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Student.java">
+        <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/util/AttributeKey.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -97,9 +103,13 @@
         <option value="$PROJECT_DIR$/server/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Paper.java" />
-        <option value="$PROJECT_DIR$/server/pom.xml" />
-        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SChannel.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SConnection.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java" />
       </list>
     </option>
   </component>
@@ -127,51 +137,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -181,17 +193,7 @@
             </path>
             <path>
               <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -201,8 +203,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,11 +214,11 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639741648840" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639747453500" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -293,6 +293,10 @@
       <workItem from="1639726280468" duration="866000" />
       <workItem from="1639727267127" duration="5057000" />
       <workItem from="1639740492035" duration="1876000" />
+      <workItem from="1639744705095" duration="435000" />
+      <workItem from="1639745218532" duration="509000" />
+      <workItem from="1639746428649" duration="118000" />
+      <workItem from="1639746608835" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="搭建Maven聚合项目结构">
       <created>1639740621808</created>
@@ -312,12 +316,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14901000" />
+    <option name="totallyTimeSpent" value="17391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2728745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -327,7 +331,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13035382" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23649907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -338,7 +342,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Compute Code Lines" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.556797" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.55576205" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.3594041" />
@@ -378,6 +382,20 @@
                 </list>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -1151,13 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1174,25 +1185,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        <state relative-caret-position="1900">
+          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="209">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,20 +1225,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Student.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/util/AttributeKey.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1272,11 +1342,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>server</last-edited>
+          <last-edited>api</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
