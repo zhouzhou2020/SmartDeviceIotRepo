@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef2560c3-5ed9-426f-90b7-8ec604ff1bdf" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/server/target/" />
+    <ignored path="$PROJECT_DIR$/api/target/" />
+    <ignored path="$PROJECT_DIR$/model/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/MainApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Paper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/MainApplication.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/MainApplication.java" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Paper.java" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java" />
+        <option value="$PROJECT_DIR$/server/src/main/resources/application.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="156" />
+    <option name="y" value="186" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIotRepo" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639741648840" />
+    <property name="last_opened_file_path" value="D:/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MainApplication">
+    <configuration name="server [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/server" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.debug.smartdeviceiot.server.MainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.server [compile]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef2560c3-5ed9-426f-90b7-8ec604ff1bdf" name="Default Changelist" comment="" />
+      <created>1639717415847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639717415847</updated>
+      <workItem from="1639717419935" duration="864000" />
+      <workItem from="1639718924868" duration="1519000" />
+      <workItem from="1639720576570" duration="1509000" />
+      <workItem from="1639722354607" duration="94000" />
+      <workItem from="1639722675652" duration="2492000" />
+      <workItem from="1639725288190" duration="624000" />
+      <workItem from="1639726280468" duration="866000" />
+      <workItem from="1639727267127" duration="5057000" />
+      <workItem from="1639740492035" duration="1876000" />
+    </task>
+    <task id="LOCAL-00001" summary="搭建Maven聚合项目结构">
+      <created>1639740621808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639740621808</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试commit，提交到本地仓">
+      <created>1639741692450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639741692450</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14901000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2728745" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13035382" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Compute Code Lines" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.556797" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3594041" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25668016" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="搭建Maven聚合项目结构" />
+    <MESSAGE value="测试commit，提交到本地仓" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试commit，提交到本地仓" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://MAVEN/org.debug.smartdeviceiot:server:1.0.1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>org.debug.smartdeviceiot:server:1.0.1</OriginalElement>
+          <nodes>
+            <node x="2021.4110099073198" y="980.0">org.debug.smartdeviceiot:server:1.0.1</node>
+            <node x="56.91100990732002" y="890.0">org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE</node>
+            <node x="122.0" y="390.0">org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16</node>
+            <node x="200.875" y="280.0">org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16/org.slf4j:slf4j-api:jar:1.7.16</node>
+            <node x="286.25" y="390.0">org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.16</node>
+            <node x="25.75" y="800.0">org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
+            <node x="0.0" y="720.0">org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/log4j:log4j:jar:1.2.17</node>
+            <node x="585.4110099073199" y="890.0">org.debug.smartdeviceiot:model:jar:1.0.1</node>
+            <node x="461.25" y="800.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1</node>
+            <node x="365.75" y="720.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1/org.projectlombok:lombok:jar:1.16.10</node>
+            <node x="517.0838007350574" y="720.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5</node>
+            <node x="651.2500000000001" y="800.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1</node>
+            <node x="685.0838007350574" y="720.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1</node>
+            <node x="909.0838007350573" y="640.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis:jar:3.4.0</node>
+            <node x="768.0838007350573" y="640.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis-spring:jar:1.3.0</node>
+            <node x="532.1708892617435" y="640.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE</node>
+            <node x="567.6708892617435" y="560.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.0.32</node>
+            <node x="571.6708892617435" y="480.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.0.32/org.apache.tomcat:tomcat-juli:jar:8.0.32</node>
+            <node x="739.5838007350573" y="280.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE</node>
+            <node x="756.8338007350573" y="200.0">org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE/org.springframework:spring-tx:jar:4.2.5.RELEASE</node>
+            <node x="2021.4110099073198" y="890.0">com.google.guava:guava:jar:15.0</node>
+            <node x="2772.0338007350574" y="890.0">mysql:mysql-connector-java:jar:5.1.37</node>
+            <node x="2970.242134068391" y="890.0">com.alibaba:druid:jar:1.0.16</node>
+            <node x="3007.242134068391" y="800.0">com.alibaba:druid:jar:1.0.16/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="2927.242134068391" y="800.0">com.alibaba:druid:jar:1.0.16/com.alibaba:tools:jar:1.8.0</node>
+            <node x="1573.0985099073198" y="890.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE</node>
+            <node x="1083.7698106423773" y="560.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE</node>
+            <node x="894.8338007350573" y="390.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE</node>
+            <node x="851.8338007350573" y="480.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.3.3.RELEASE</node>
+            <node x="150.75" y="480.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE</node>
+            <node x="1109.2698106423773" y="480.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.yaml:snakeyaml:jar:1.16</node>
+            <node x="1706.9110099073198" y="800.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE</node>
+            <node x="1936.1088007350577" y="640.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.0.32</node>
+            <node x="1501.8588007350577" y="720.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.0.32</node>
+            <node x="1655.8588007350577" y="720.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-logging-juli:jar:8.0.32</node>
+            <node x="1866.8588007350577" y="720.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.0.32</node>
+            <node x="1179.4421340683907" y="800.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE</node>
+            <node x="1233.3588007350575" y="720.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final</node>
+            <node x="1128.8588007350575" y="640.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="1368.8588007350575" y="640.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final</node>
+            <node x="1260.8588007350575" y="640.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.1.0</node>
+            <node x="866.25" y="800.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5</node>
+            <node x="955.8338007350574" y="720.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-core:jar:2.6.5</node>
+            <node x="2094.3208892617436" y="390.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE</node>
+            <node x="2098.5708892617436" y="200.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE</node>
+            <node x="2143.5708892617436" y="120.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="1864.0" y="120.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE</node>
+            <node x="2178.5708892617436" y="280.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE</node>
+            <node x="2160.7838007350574" y="480.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE</node>
+            <node x="2261.5708892617436" y="200.0">org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE</node>
+            <node x="2582.0338007350574" y="890.0">org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE</node>
+            <node x="2618.0708892617436" y="800.0">org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/junit:junit:jar:4.12</node>
+            <node x="2490.0708892617436" y="800.0">org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="2474.5708892617436" y="720.0">org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="2624.9526765739865" y="720.0">org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="2697.0708892617436" y="800.0">org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="2072.5338007350574" y="0.0">org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE</node>
+            <node x="2416.5708892617436" y="120.0">org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-test:jar:4.2.5.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16/org.slf4j:slf4j-api:jar:1.7.16">
+              <point x="0.0" y="-15.0" />
+              <point x="173.5" y="370.0" />
+              <point x="239.875" y="370.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-test:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="2464.0708892617436" y="60.0" />
+              <point x="2158.2838007350574" y="60.0" />
+              <point x="36.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="1281.9421340683907" y="780.0" />
+              <point x="1304.8588007350575" y="780.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE/org.springframework:spring-tx:jar:4.2.5.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="789.0838007350573" y="260.0" />
+              <point x="798.8338007350573" y="260.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE">
+              <point x="43.25" y="-15.0" />
+              <point x="1702.8485099073198" y="860.0" />
+              <point x="2094.6088007350577" y="860.0" />
+              <point x="2094.6088007350577" y="460.0" />
+              <point x="2118.8208892617436" y="460.0" />
+              <point x="-24.5" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="14.166666666666742" y="-15.0" />
+              <point x="2681.2004674017244" y="870.0" />
+              <point x="2686.5708892617436" y="870.0" />
+              <point x="2686.5708892617436" y="780.0" />
+              <point x="2696.2026765739865" y="780.0" />
+              <point x="14.25" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="57.200000000000045" y="-15.0" />
+              <point x="1212.469810642377" y="540.0" />
+              <point x="1222.7698106423773" y="540.0" />
+              <point x="1222.7698106423773" y="80.0" />
+              <point x="2101.117134068391" y="80.0" />
+              <point x="-20.41666666666663" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE">
+              <point x="-43.25" y="-15.0" />
+              <point x="1616.3485099073198" y="860.0" />
+              <point x="1281.9421340683907" y="860.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="27.0" y="-15.0" />
+              <point x="2571.0708892617436" y="780.0" />
+              <point x="2639.2026765739865" y="780.0" />
+              <point x="-42.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/junit:junit:jar:4.12" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-15.0" />
+              <point x="2647.0708892617436" y="780.0" />
+              <point x="2667.7026765739865" y="780.0" />
+              <point x="-14.25" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:server:1.0.1" target="com.google.guava:guava:jar:15.0">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE">
+              <point x="72.08333333333326" y="-15.0" />
+              <point x="1731.681843240653" y="870.0" />
+              <point x="2221.2838007350574" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="48.39999999999998" y="-15.0" />
+              <point x="2269.6838007350575" y="460.0" />
+              <point x="2406.0708892617436" y="460.0" />
+              <point x="2406.0708892617436" y="70.0" />
+              <point x="2150.117134068391" y="70.0" />
+              <point x="28.583333333333258" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:server:1.0.1" target="mysql:mysql-connector-java:jar:5.1.37">
+              <point x="18.857142857142662" y="-15.0" />
+              <point x="2073.2681527644627" y="950.0" />
+              <point x="2850.5338007350574" y="950.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1">
+              <point x="0.0" y="-15.0" />
+              <point x="748.7500000000001" y="780.0" />
+              <point x="804.0838007350574" y="780.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="33.0" y="-15.0" />
+              <point x="822.0838007350573" y="260.0" />
+              <point x="1578.2860099073198" y="260.0" />
+              <point x="1578.2860099073198" y="180.0" />
+              <point x="1891.0" y="180.0" />
+              <point x="-27.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="-48.39999999999998" y="-15.0" />
+              <point x="2172.883800735058" y="450.0" />
+              <point x="1919.5" y="450.0" />
+              <point x="1919.5" y="180.0" />
+              <point x="1909.0" y="180.0" />
+              <point x="-9.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.16" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16/org.slf4j:slf4j-api:jar:1.7.16">
+              <point x="0.0" y="-15.0" />
+              <point x="332.25" y="370.0" />
+              <point x="265.875" y="370.0" />
+              <point x="26.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.0.32">
+              <point x="68.33333333333326" y="-15.0" />
+              <point x="1350.275467401724" y="780.0" />
+              <point x="1535.3588007350577" y="780.0" />
+              <point x="-33.5" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1">
+              <point x="-17.0" y="-15.0" />
+              <point x="602.4110099073199" y="870.0" />
+              <point x="486.25" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="-33.0" y="-15.0" />
+              <point x="756.0838007350573" y="260.0" />
+              <point x="746.3338007350573" y="260.0" />
+              <point x="746.3338007350573" y="60.0" />
+              <point x="2084.7838007350574" y="60.0" />
+              <point x="-36.75" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE/org.springframework:spring-tx:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="-21.0" y="-15.0" />
+              <point x="777.8338007350573" y="70.0" />
+              <point x="2092.9504674017244" y="70.0" />
+              <point x="-28.58333333333337" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-15.0" />
+              <point x="2760.5708892617436" y="780.0" />
+              <point x="2724.7026765739865" y="780.0" />
+              <point x="42.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.16">
+              <point x="66.75" y="-15.0" />
+              <point x="212.66100990732002" y="870.0" />
+              <point x="355.25" y="870.0" />
+              <point x="23.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE">
+              <point x="-95.20000000000005" y="-15.0" />
+              <point x="708.8838007350573" y="700.0" />
+              <point x="619.1708892617435" y="700.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3">
+              <point x="42.5" y="-15.0" />
+              <point x="2709.5338007350574" y="860.0" />
+              <point x="2760.5708892617436" y="860.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/junit:junit:jar:4.12">
+              <point x="-14.166666666666657" y="-15.0" />
+              <point x="2652.867134068391" y="870.0" />
+              <point x="2647.0708892617436" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE">
+              <point x="24.200000000000045" y="-15.0" />
+              <point x="2245.4838007350577" y="450.0" />
+              <point x="2362.0708892617436" y="450.0" />
+              <point x="33.5" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE">
+              <point x="-47.59999999999991" y="-15.0" />
+              <point x="756.4838007350575" y="700.0" />
+              <point x="716.6708892617435" y="700.0" />
+              <point x="716.6708892617435" y="460.0" />
+              <point x="911.6671340683905" y="460.0" />
+              <point x="-33.66666666666674" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:slf4j-log4j12:jar:1.7.16" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/log4j:log4j:jar:1.2.17">
+              <point x="-26.0" y="-15.0" />
+              <point x="51.75" y="780.0" />
+              <point x="45.75" y="780.0" />
+              <point x="15.25" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.3.3.RELEASE">
+              <point x="47.59999999999991" y="-15.0" />
+              <point x="851.6838007350573" y="690.0" />
+              <point x="898.5838007350573" y="690.0" />
+              <point x="-46.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.0.32">
+              <point x="-70.875" y="-15.0" />
+              <point x="1730.5360099073198" y="780.0" />
+              <point x="1602.3588007350577" y="780.0" />
+              <point x="33.5" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="2221.2838007350574" y="440.0" />
+              <point x="2253.2838007350574" y="440.0" />
+              <point x="2253.2838007350574" y="370.0" />
+              <point x="2275.23755592841" y="370.0" />
+              <point x="38.66666666666663" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/org.jboss.logging:jboss-logging:jar:3.3.0.Final">
+              <point x="47.66666666666663" y="-15.0" />
+              <point x="1352.5254674017242" y="700.0" />
+              <point x="1424.8588007350575" y="700.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE">
+              <point x="25.25" y="-15.0" />
+              <point x="970.5838007350573" y="360.0" />
+              <point x="2197.904222595077" y="360.0" />
+              <point x="-38.66666666666663" y="15.0" />
+            </edge>
+            <edge source="com.alibaba:druid:jar:1.0.16" target="com.alibaba:druid:jar:1.0.16/com.alibaba:jconsole:jar:1.8.0">
+              <point x="15.75" y="-15.0" />
+              <point x="3017.492134068391" y="870.0" />
+              <point x="3046.242134068391" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.0.32">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:server:1.0.1" target="com.alibaba:druid:jar:1.0.16">
+              <point x="28.28571428571422" y="-15.0" />
+              <point x="2082.6967241930342" y="960.0" />
+              <point x="3001.742134068391" y="960.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1/org.projectlombok:lombok:jar:1.16.10">
+              <point x="-12.5" y="-15.0" />
+              <point x="473.75" y="780.0" />
+              <point x="403.75" y="780.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-test:jar:4.2.5.RELEASE">
+              <point x="-70.83333333333326" y="-15.0" />
+              <point x="2596.2004674017244" y="870.0" />
+              <point x="2464.0708892617436" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.mockito:mockito-core:jar:1.10.19">
+              <point x="-42.5" y="-15.0" />
+              <point x="2624.5338007350574" y="860.0" />
+              <point x="2544.0708892617436" y="860.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.yaml:snakeyaml:jar:1.16">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="14.5" y="-15.0" />
+              <point x="2251.0708892617436" y="90.0" />
+              <point x="2133.7838007350574" y="90.0" />
+              <point x="12.25" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:server:1.0.1" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE">
+              <point x="-28.28571428571422" y="-15.0" />
+              <point x="2026.1252956216056" y="960.0" />
+              <point x="145.91100990732002" y="960.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="2328.5708892617436" y="80.0" />
+              <point x="2141.9504674017244" y="80.0" />
+              <point x="20.41666666666663" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE">
+              <point x="-14.416666666666742" y="-15.0" />
+              <point x="1645.181843240653" y="850.0" />
+              <point x="1491.3588007350577" y="850.0" />
+              <point x="1491.3588007350577" y="615.0" />
+              <point x="1202.9364773090438" y="615.0" />
+              <point x="47.66666666666674" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="2146.5708892617436" y="180.0" />
+              <point x="2133.0708892617436" y="180.0" />
+              <point x="2133.0708892617436" y="100.0" />
+              <point x="2125.617134068391" y="100.0" />
+              <point x="4.083333333333371" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:slf4j-log4j12:jar:1.7.16" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16/org.slf4j:slf4j-api:jar:1.7.16">
+              <point x="26.0" y="-15.0" />
+              <point x="103.75" y="360.0" />
+              <point x="213.875" y="360.0" />
+              <point x="-26.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="-25.25" y="-15.0" />
+              <point x="920.0838007350573" y="360.0" />
+              <point x="728.750467401724" y="360.0" />
+              <point x="728.750467401724" y="50.0" />
+              <point x="2076.617134068391" y="50.0" />
+              <point x="-44.91666666666663" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="-36.75" y="-15.0" />
+              <point x="2106.5708892617436" y="350.0" />
+              <point x="1930.5" y="350.0" />
+              <point x="1930.5" y="180.0" />
+              <point x="1927.0" y="180.0" />
+              <point x="9.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/javax.validation:validation-api:jar:1.1.0.Final">
+              <point x="-47.66666666666663" y="-15.0" />
+              <point x="1257.1921340683907" y="700.0" />
+              <point x="1184.8588007350575" y="700.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5">
+              <point x="-72.08333333333326" y="-15.0" />
+              <point x="1587.5151765739865" y="870.0" />
+              <point x="932.25" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5">
+              <point x="12.5" y="-15.0" />
+              <point x="498.75" y="780.0" />
+              <point x="554.0838007350574" y="780.0" />
+              <point x="-37.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE">
+              <point x="-68.33333333333326" y="-15.0" />
+              <point x="1213.6088007350575" y="780.0" />
+              <point x="1118.3588007350572" y="780.0" />
+              <point x="1118.3588007350572" y="615.0" />
+              <point x="1155.2698106423773" y="615.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="-12.25" y="-15.0" />
+              <point x="2131.0708892617436" y="340.0" />
+              <point x="2088.0708892617436" y="340.0" />
+              <point x="2088.0708892617436" y="100.0" />
+              <point x="2117.4504674017244" y="100.0" />
+              <point x="-4.083333333333371" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-logging-juli:jar:8.0.32">
+              <point x="-23.625" y="-15.0" />
+              <point x="1777.7860099073198" y="780.0" />
+              <point x="1751.3588007350577" y="780.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis:jar:3.4.0">
+              <point x="95.19999999999982" y="-15.0" />
+              <point x="899.2838007350572" y="700.0" />
+              <point x="948.0838007350573" y="700.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:server:1.0.1" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE">
+              <point x="-9.428571428571558" y="-15.0" />
+              <point x="2044.9824384787482" y="940.0" />
+              <point x="1659.5985099073198" y="940.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE">
+              <point x="43.5" y="-15.0" />
+              <point x="2280.0708892617436" y="260.0" />
+              <point x="2295.0708892617436" y="260.0" />
+              <point x="-33.5" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.3.3.RELEASE/org.hibernate:hibernate-validator:jar:5.2.4.Final/com.fasterxml:classmate:jar:1.1.0">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE">
+              <point x="-58.0" y="-15.0" />
+              <point x="561.1708892617435" y="615.0" />
+              <point x="549.6708892617435" y="615.0" />
+              <point x="549.6708892617435" y="370.0" />
+              <point x="789.0838007350573" y="370.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.alibaba:druid:jar:1.0.16" target="com.alibaba:druid:jar:1.0.16/com.alibaba:tools:jar:1.8.0">
+              <point x="-15.75" y="-15.0" />
+              <point x="2985.992134068391" y="870.0" />
+              <point x="2957.242134068391" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:server:1.0.1" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE">
+              <point x="9.428571428571558" y="-15.0" />
+              <point x="2063.839581335891" y="940.0" />
+              <point x="2667.0338007350574" y="940.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.0.32">
+              <point x="23.625" y="-15.0" />
+              <point x="1825.0360099073198" y="770.0" />
+              <point x="1958.8588007350577" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE">
+              <point x="12.25" y="-15.0" />
+              <point x="2155.5708892617436" y="330.0" />
+              <point x="2122.5708892617436" y="330.0" />
+              <point x="-24.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.0.32">
+              <point x="70.875" y="-15.0" />
+              <point x="1872.2860099073198" y="780.0" />
+              <point x="2061.3588007350577" y="780.0" />
+              <point x="2061.3588007350577" y="700.0" />
+              <point x="2047.1088007350577" y="700.0" />
+              <point x="37.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.16">
+              <point x="48.5" y="-15.0" />
+              <point x="296.25" y="460.0" />
+              <point x="309.25" y="460.0" />
+              <point x="-23.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/log4j:log4j:jar:1.2.17">
+              <point x="-66.75" y="-15.0" />
+              <point x="79.16100990732002" y="870.0" />
+              <point x="15.25" y="870.0" />
+              <point x="-15.25" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.0.32" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.0.32/org.apache.tomcat:tomcat-juli:jar:8.0.32">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.0.32" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.0.32">
+              <point x="0.0" y="-15.0" />
+              <point x="1958.8588007350577" y="700.0" />
+              <point x="1973.1088007350577" y="700.0" />
+              <point x="-37.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16">
+              <point x="22.25" y="-15.0" />
+              <point x="168.16100990732002" y="870.0" />
+              <point x="140.25" y="870.0" />
+              <point x="140.25" y="460.0" />
+              <point x="147.75" y="460.0" />
+              <point x="-25.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE">
+              <point x="-57.200000000000045" y="-15.0" />
+              <point x="1098.069810642377" y="540.0" />
+              <point x="247.75" y="540.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE">
+              <point x="-14.5" y="-15.0" />
+              <point x="2222.0708892617436" y="250.0" />
+              <point x="2170.5708892617436" y="250.0" />
+              <point x="24.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE/org.springframework:spring-tx:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="21.0" y="-15.0" />
+              <point x="819.8338007350573" y="170.0" />
+              <point x="1873.0" y="170.0" />
+              <point x="-45.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16">
+              <point x="-48.5" y="-15.0" />
+              <point x="25.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="70.83333333333326" y="-15.0" />
+              <point x="2737.867134068391" y="870.0" />
+              <point x="2834.5708892617436" y="870.0" />
+              <point x="2834.5708892617436" y="50.0" />
+              <point x="2166.4504674017244" y="50.0" />
+              <point x="44.91666666666663" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="32.0" y="-15.0" />
+              <point x="2178.5708892617436" y="180.0" />
+              <point x="2192.0708892617436" y="180.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.3.RELEASE">
+              <point x="14.416666666666742" y="-15.0" />
+              <point x="1674.0151765739865" y="850.0" />
+              <point x="1801.4110099073198" y="850.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1">
+              <point x="17.0" y="-15.0" />
+              <point x="636.4110099073199" y="870.0" />
+              <point x="748.7500000000001" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="-43.5" y="-15.0" />
+              <point x="2193.0708892617436" y="260.0" />
+              <point x="1958.25" y="260.0" />
+              <point x="1958.25" y="180.0" />
+              <point x="1945.0" y="180.0" />
+              <point x="27.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="1918.0" y="90.0" />
+              <point x="2109.2838007350574" y="90.0" />
+              <point x="-12.25" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE">
+              <point x="58.0" y="-15.0" />
+              <point x="677.1708892617435" y="615.0" />
+              <point x="1107.6031439757103" y="615.0" />
+              <point x="-47.66666666666674" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.3.3.RELEASE">
+              <point x="-28.59999999999991" y="-15.0" />
+              <point x="1126.6698106423773" y="530.0" />
+              <point x="992.0838007350573" y="530.0" />
+              <point x="46.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.mockito:mockito-core:jar:1.10.19" target="org.springframework.boot:spring-boot-starter-test:jar:1.3.3.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1">
+              <point x="-27.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-core:jar:2.6.5">
+              <point x="33.0" y="-15.0" />
+              <point x="965.25" y="780.0" />
+              <point x="1007.8338007350574" y="780.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE">
+              <point x="36.75" y="-15.0" />
+              <point x="2180.0708892617436" y="370.0" />
+              <point x="2236.5708892617436" y="370.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis-spring:jar:1.3.0">
+              <point x="0.0" y="-15.0" />
+              <point x="804.0838007350574" y="700.0" />
+              <point x="828.0838007350573" y="700.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-log4j:jar:1.3.3.RELEASE/org.slf4j:slf4j-log4j12:jar:1.7.16">
+              <point x="-22.25" y="-15.0" />
+              <point x="123.66100990732002" y="860.0" />
+              <point x="77.75" y="860.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE">
+              <point x="28.59999999999991" y="-15.0" />
+              <point x="1183.8698106423772" y="530.0" />
+              <point x="1211.7698106423773" y="530.0" />
+              <point x="1211.7698106423773" y="460.0" />
+              <point x="979.000467401724" y="460.0" />
+              <point x="33.66666666666674" y="15.0" />
+            </edge>
+            <edge source="org.debug.smartdeviceiot:server:1.0.1" target="org.debug.smartdeviceiot:model:jar:1.0.1">
+              <point x="-18.857142857142662" y="-15.0" />
+              <point x="2035.5538670501771" y="950.0" />
+              <point x="619.4110099073199" y="950.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE">
+              <point x="-32.0" y="-15.0" />
+              <point x="2114.5708892617436" y="170.0" />
+              <point x="1963.0" y="170.0" />
+              <point x="45.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5" target="org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5">
+              <point x="-33.0" y="-15.0" />
+              <point x="899.25" y="770.0" />
+              <point x="628.0838007350574" y="770.0" />
+              <point x="37.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-webmvc:jar:4.2.5.RELEASE" target="org.springframework.boot:spring-boot-starter-web:jar:1.3.3.RELEASE/org.springframework:spring-web:jar:4.2.5.RELEASE">
+              <point x="-24.200000000000045" y="-15.0" />
+              <point x="2197.0838007350576" y="440.0" />
+              <point x="2167.8208892617436" y="440.0" />
+              <point x="24.5" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.627823240589198" x="362.0" y="685.0" />
+          <SelectedNodes>
+            <node>org.debug.smartdeviceiot:server:1.0.1</node>
+            <node>org.debug.smartdeviceiot:model:jar:1.0.1/org.debug.smartdeviceiot:api:jar:1.0.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.2.5.RELEASE/spring-web-4.2.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/org.debug.smartdeviceiot:model:1.0.1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>org.debug.smartdeviceiot:model:1.0.1</OriginalElement>
+          <nodes>
+            <node x="" y="">org.debug.smartdeviceiot:model:1.0.1</node>
+            <node x="" y="">org.debug.smartdeviceiot:api:jar:1.0.1</node>
+            <node x="" y="">org.debug.smartdeviceiot:api:jar:1.0.1/org.projectlombok:lombok:jar:1.16.10</node>
+            <node x="" y="">org.debug.smartdeviceiot:api:jar:1.0.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis:jar:3.4.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.mybatis:mybatis-spring:jar:1.3.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE/org.springframework:spring-core:jar:4.2.5.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE/org.springframework:spring-aop:jar:4.2.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE/org.springframework:spring-beans:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot:jar:1.3.3.RELEASE/org.springframework:spring-context:jar:4.2.5.RELEASE/org.springframework:spring-expression:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-autoconfigure:jar:1.3.3.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.5</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.5/ch.qos.logback:logback-core:jar:1.1.5</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.5/org.slf4j:slf4j-api:jar:1.7.16</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.16</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.16</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.3.3.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.16</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.3.3.RELEASE/org.yaml:snakeyaml:jar:1.16</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.0.32</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.0.32/org.apache.tomcat:tomcat-juli:jar:8.0.32</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.1.1/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.1.1/org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.3.RELEASE/org.springframework:spring-jdbc:jar:4.2.5.RELEASE/org.springframework:spring-tx:jar:4.2.5.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5105263157894734" x="625.0" y="338.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/org.debug.smartdeviceiot:api:1.0.1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>org.debug.smartdeviceiot:api:1.0.1</OriginalElement>
+          <nodes>
+            <node x="" y="">org.debug.smartdeviceiot:api:1.0.1</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.16.10</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="125.0" y="-3.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Paper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
