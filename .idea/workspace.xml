@@ -2,19 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef2560c3-5ed9-426f-90b7-8ec604ff1bdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smartdeviceiot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/TemplateSignal/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/TemplateSignal/RealSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/TemplateSignal/Signal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/TemplateSignal/SignalFileDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Utils/ArrayUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Utils/math/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Utils/math/PolynomialRootFinderJenkinsTraub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Utils/math/PolynomialRootFinderLaguerre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Utils/math/PolynomialUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Utils/readData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/dft/dfttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/dft/fourier/dft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/dft/fourier/fft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/dft/fourier/idft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/dft_graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/matrix/haarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/matrix/linear/linearOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/matrix/linear/linearPr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/matrix/linear/matWavelet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/util/complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/util/matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/util/phasor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/util/point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/util/print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/util/signal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/daub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/daubbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/daubechies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/haar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/haarpoly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/liftbase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/lifttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/poly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/polyinterp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/predictWave/predictbase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/predictWave/predicthaar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/predictWave/predictline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/predictWave/predictpoly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/wave/predictWave/predicttest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Wavelet/window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/Transformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/ComplexTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/DiscreteCosineTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/DiscreteFourierTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/DiscreteWaveletTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/FastCosineTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/FastWalshHadamardTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/InSituFastFourierTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/RealTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/RecursiveFastFourierTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/Transformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/WalshHadamardTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/dspUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/BesselFilterDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/FilterCharacteristicsType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/FilterPassType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/IirFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/IirFilterCoefficients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/IirFilterDesignExstrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/IirFilterDesignFisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/IirFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/iir/SignalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/type/BandPassFilterFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/type/FilterFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/type/HighPassFilterFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/type/LowPassFilterFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/window/BlackmanWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/window/HammingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/window/HanningWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/window/RectangularWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/filtering/window/WindowFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/readData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ADC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/BandPassFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ComplexSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ContinuousBasedDiscreteSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ContinuousSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ConvolutionSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/CorrelationSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/DAC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/DiscreteComplexSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/DiscreteSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/GaussianNoise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/HighPassFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ImpulseNoise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/LowPassFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/OperationResultContinuousSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/OperationResultDiscreteSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/QuantizedSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/QuantizedSignalRounded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/QuantizedSignalTruncated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ReconstructedSignalFirstOrderHold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ReconstructedSignalSincBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/ReconstructedSignalZeroOrderHold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/RectangularSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/RectangularSymmetricSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/Signal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/SignalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/SinusoidalRectifiedOneHalfSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/SinusoidalRectifiedTwoHalfSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/SinusoidalSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/StaticDiscreteComplexSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/StaticDiscreteSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/TriangularSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/UniformNoise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/UnitImpulseSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/signal/UnitJumpSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/HaarWaveletCoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/HaarWaveletDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/HaarWaveletFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/HaarWaveletFileWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/HaarWaveletTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/Daubechies4Wavelet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/Daubechies4WaveletCoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/Daubechies4WaveletDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/HaarWavelet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/HaarWithPolynomialInterpolationWavelet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/LiftingSchemeBaseWavelet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/LiftingSchemeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/LineWavelet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/PolynomialInterpolation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/PolynomialWavelets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/lift/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/wavelet2/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/window/BlackmanWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/window/HammingWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/window/HanningWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/window/RectangularWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/window/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/window/WindowType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/时域统计指标.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/org/debug/smartdeviceiot/server/MainApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/org/debug/smartdeviceiot/server/controller/PaperController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/org/debug/smartdeviceiot/server/entity/Paper.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,14 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="399">
               <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-              <folding>
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +163,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="228">
               <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -66,17 +182,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/Transformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/readData.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Utils/math/Complex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/util/AttributeKey.class">
+        <entry file="file://$PROJECT_DIR$/server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="131">
+              <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -105,11 +247,13 @@
         <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/entity/Paper.java" />
         <option value="$PROJECT_DIR$/server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/controller/PaperController.java" />
-        <option value="$PROJECT_DIR$/server/pom.xml" />
         <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SChannel.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SConnection.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java" />
         <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/readData.java" />
+        <option value="$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/Transformer.java" />
+        <option value="$PROJECT_DIR$/server/pom.xml" />
       </list>
     </option>
   </component>
@@ -127,8 +271,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="156" />
-    <option name="y" value="186" />
+    <option name="x" value="177" />
+    <option name="y" value="141" />
     <option name="width" value="1296" />
     <option name="height" value="696" />
   </component>
@@ -137,8 +281,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,7 +331,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="DSP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="DSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apacheTransform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="DSP" type="462c0819:PsiDirectoryNode" />
+              <item name="apacheTransform" type="462c0819:PsiDirectoryNode" />
+              <item name="transform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
@@ -199,10 +364,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="smartdeviceiot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SmartDeviceIoT" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,14 +387,20 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639747453500" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639796912413" />
+    <property name="last_opened_file_path" value="D:/yuanma/DSPtest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\toolsSoft\Git\Git\SmartDeviceIoT\server\src\main\java\org\debug\smartdeviceiot\server\DSP\apacheTransform" />
+      <recent name="D:\toolsSoft\Git\Git\SmartDeviceIoT\server\src\main\java\org\debug\smartdeviceiot\server\DSP" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -296,7 +475,11 @@
       <workItem from="1639744705095" duration="435000" />
       <workItem from="1639745218532" duration="509000" />
       <workItem from="1639746428649" duration="118000" />
-      <workItem from="1639746608835" duration="1428000" />
+      <workItem from="1639746608835" duration="2851000" />
+      <workItem from="1639749605129" duration="499000" />
+      <workItem from="1639750197686" duration="594000" />
+      <workItem from="1639796342248" duration="640000" />
+      <workItem from="1639797265635" duration="223000" />
     </task>
     <task id="LOCAL-00001" summary="搭建Maven聚合项目结构">
       <created>1639740621808</created>
@@ -312,16 +495,24 @@
       <option name="project" value="LOCAL" />
       <updated>1639741692450</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增连接管理工具类">
+      <created>1639748096543</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639748096543</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17391000" />
+    <option name="totallyTimeSpent" value="20770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2923077" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34331983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -357,6 +548,43 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2736842" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23649907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Compute Code Lines" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.55576205" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3594041" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.25668016" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -404,7 +632,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="搭建Maven聚合项目结构" />
     <MESSAGE value="测试commit，提交到本地仓" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试commit，提交到本地仓" />
+    <MESSAGE value="新增连接管理工具类" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增连接管理工具类" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1183,13 +1412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/MainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1239,16 +1461,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SChannel.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SChannel.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/util/AttributeKey.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="76">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/SConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="228">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1263,30 +1493,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/ConnectionUtil.java">
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/readData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/Utils/math/Complex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/DSP/apacheTransform/transform/Transformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/java/org/debug/smartdeviceiot/server/gateway/Const.java">
+    <entry file="file://$PROJECT_DIR$/server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-all/4.1.33.Final/netty-all-4.1.33.Final.jar!/io/netty/util/AttributeKey.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="131">
+          <caret line="106" column="19" lean-forward="true" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
         </state>
       </provider>
     </entry>
