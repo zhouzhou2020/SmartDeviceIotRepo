@@ -1,10 +1,17 @@
-package org.debug.smartdeviceiot.server.DSP;
+package org.debug.smartdeviceiot.server.signalprocess.Utils;
+
+import org.debug.smartdeviceiot.server.signalprocess.TemplateSignal.Dao;
+import org.debug.smartdeviceiot.server.signalprocess.TemplateSignal.Signal;
+import org.debug.smartdeviceiot.server.signalprocess.TemplateSignal.SignalFileDao;
 
 import java.io.*;
 
 
-public class readData {
+public class OfflineDataUtil {
 
+    /**
+     * bytes数组转short数组
+     * */
     public static short[] extractShortsArray(byte []bytes) {
         int len = bytes.length;
         short[] shorts = new short[len >> 1 + (len & 1)];
@@ -55,6 +62,9 @@ public class readData {
 
     }
 
+    /**
+     * 从文件读取数据到byte数组
+     * */
     public static byte[] fileToByteArray(String filePath) {
 
         File src = new File(filePath);//获得文件的源头，从哪开始传入(源)
@@ -91,6 +101,31 @@ public class readData {
         return null;
     }
 
+    /**
+     * 从文件中读取一组信号
+     * */
+    public static Signal importSignal(String fname) {
+        SignalFileDao signalFileDao = new SignalFileDao();
+        Signal signal = signalFileDao.read(fname);
+        return signal;
+    }
+
+    /**
+     * 把一组信号存到目标文件
+     * */
+    private static void saveToFile(final Signal signal,String fname) {
+        Dao dao = new SignalFileDao();
+        dao.write(signal, fname);
+
+//        File file = fileChooser.showSaveDialog(stage1);
+//        dao.write(signal, file.getPath());
+
+    }
+
+
+    /**
+     * bytes数组存入文件中
+     * */
     public static void byteArrayToFile(byte[] src,String filePath) {
         File dest = new File(filePath);//目的地，新文件
         InputStream is = null;//ByteArrayInputStream的父类
@@ -119,6 +154,19 @@ public class readData {
                 }
             }
         }
+    }
+
+    public static double[] getFrame(double[] waveform, int start) {
+//        double SampleRate=40960;  //采样率
+//        double frameInterval=1024.0/40960;
+//        int frameSize = (int)(SampleRate*frameInterval);  //窗长
+
+        int frameSize=100;
+        int length = Math.min(frameSize, waveform.length - start);
+//        System.out.println("length = " + length);
+        double[] wf = new double[length];
+        System.arraycopy(waveform, start, wf, 0, length);
+        return wf;
     }
 
 }

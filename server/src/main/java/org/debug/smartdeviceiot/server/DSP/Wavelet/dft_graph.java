@@ -1,6 +1,7 @@
 package org.debug.smartdeviceiot.server.DSP.Wavelet;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.point;
+
 import java.util.Vector;
-import com.dlut.Wavelet.util.*;
 
 
 /**

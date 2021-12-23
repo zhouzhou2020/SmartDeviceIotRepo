@@ -1,6 +1,9 @@
 package org.debug.smartdeviceiot.server.DSP.Wavelet.dft.fourier;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.complex;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.point;
+
 import java.util.Vector;
-import com.dlut.Wavelet.util.*;
+
 /**
  Class supporting the discrete Fourier transform
  */
@@ -33,7 +36,7 @@ public class dft {
 
         This calculation returns a complex value, with a real part calculated from the cosine part of the equation and the imaginary part calculated from the sine part of the equation.
                 */
-     public complex dftPoint( int m ) {
+     public complex dftPoint(int m ) {
          final double twoPi = 2 * Math.PI;
          complex cx = new complex(0.0f,0.0f);
          if (m >= 0 && m < N) {

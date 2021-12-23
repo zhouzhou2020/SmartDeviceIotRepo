@@ -1,6 +1,8 @@
 package org.debug.smartdeviceiot.server.DSP.Wavelet.dft.fourier;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.complex;
+
 import java.util.Vector;
-import com.dlut.Wavelet.util.*;
+
 public class idft {
     private int N;
     private Vector data;

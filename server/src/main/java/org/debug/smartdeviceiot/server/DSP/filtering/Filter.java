@@ -1,10 +1,10 @@
 package org.debug.smartdeviceiot.server.DSP.filtering;
 
 
-import TemplateSignal.RealSignal;
-import TemplateSignal.Signal;
-import filtering.type.FilterFunction;
-import filtering.window.WindowFunction;
+import org.debug.smartdeviceiot.server.DSP.TemplateSignal.RealSignal;
+import org.debug.smartdeviceiot.server.DSP.TemplateSignal.Signal;
+import org.debug.smartdeviceiot.server.DSP.filtering.type.FilterFunction;
+import org.debug.smartdeviceiot.server.DSP.filtering.window.WindowFunction;
 
 import java.util.ArrayList;
 import java.util.List;

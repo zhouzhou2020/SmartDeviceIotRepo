@@ -1,6 +1,8 @@
 package org.debug.smartdeviceiot.server.DSP.Wavelet.dft.fourier;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.complex;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.point;
+
 import java.util.Vector;
-import com.dlut.Wavelet.util.*;
 public class fft {
     private int N;        // number of "points" in the DFT
     private Vector data;  // Data on which the DFT is performed,
@@ -93,7 +95,7 @@ public class fft {
      </p>
 
      */
-    public complex dftPoint( int m )
+    public complex dftPoint(int m )
     {
         complex cx = new complex(0.0f,0.0f);
 

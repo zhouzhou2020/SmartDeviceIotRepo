@@ -1,7 +1,11 @@
 package org.debug.smartdeviceiot.server.DSP.Wavelet.dft;
 
-import com.dlut.Wavelet.util.*;
-import com.dlut.Wavelet.dft.fourier.*;
+
+import org.debug.smartdeviceiot.server.DSP.Wavelet.dft.fourier.dft;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.complex;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.point;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.signal;
+
 import java.util.Vector;
 import java.lang.Math.*; /** Test for the Discreat Fourier Transform */
 

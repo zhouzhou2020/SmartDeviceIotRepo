@@ -1,5 +1,6 @@
 package org.debug.smartdeviceiot.server.DSP.Wavelet.wave;
-import com.dlut.Wavelet.util.*;
+
+import org.debug.smartdeviceiot.server.DSP.Wavelet.util.print;
 
 class lifttest {
     public static void main( String[] args ) {

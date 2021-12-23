@@ -1,8 +1,8 @@
 package org.debug.smartdeviceiot.server.DSP.filtering.iir;
 
 
-import TemplateSignal.RealSignal;
-import TemplateSignal.SignalFileDao;
+import org.debug.smartdeviceiot.server.DSP.TemplateSignal.RealSignal;
+import org.debug.smartdeviceiot.server.DSP.TemplateSignal.SignalFileDao;
 
 public class IirFilterTest {
 

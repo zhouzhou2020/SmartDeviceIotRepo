@@ -1,5 +1,4 @@
 package org.debug.smartdeviceiot.server.DSP.Wavelet.wave;
-import com.dlut.Wavelet.util.*;
 /**
  class liftbase: base class for simple Lifting Scheme wavelets using split, predict, update or update, predict, merge steps.
  Simple lifting scheme wavelets consist of three steps, a split/merge step, predict step and an update step:

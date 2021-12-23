@@ -1,5 +1,8 @@
 package org.debug.smartdeviceiot.server.DSP.Wavelet.matrix;
-import com.dlut.Wavelet.matrix.linear.*;
+
+import org.debug.smartdeviceiot.server.DSP.Wavelet.matrix.linear.linearPr;
+import org.debug.smartdeviceiot.server.DSP.Wavelet.matrix.linear.matWavelet;
+
 /**
  Demonstrate how the Haar wavelet transform can be calculated using matrices.
  The even rows of a forward transform matrix calculate the Haar wavelet scaling function. This is a smoothed value, which in the case of the Haar transform is simply the average of two values. The scaling function is sometimes referred to as a low pass filter.

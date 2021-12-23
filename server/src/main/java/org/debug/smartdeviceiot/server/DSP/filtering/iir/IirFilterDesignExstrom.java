@@ -7,7 +7,7 @@
 package org.debug.smartdeviceiot.server.DSP.filtering.iir;
 
 
-import Utils.ArrayUtils;
+import org.debug.smartdeviceiot.server.DSP.Utils.ArrayUtils;
 
 /**Calculates the IIR filter coefficients of a Butterworth filter.
  * */
