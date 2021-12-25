@@ -1,7 +1,7 @@
 package org.debug.smartdeviceiot.server.signalprocess.generating;
 
 
-import org.debug.smartdeviceiot.server.signalprocess.TemplateSignal.Signal;
+import org.debug.smartdeviceiot.server.signalprocess.templateSignal.Signal;
 
 public interface Generator {
 

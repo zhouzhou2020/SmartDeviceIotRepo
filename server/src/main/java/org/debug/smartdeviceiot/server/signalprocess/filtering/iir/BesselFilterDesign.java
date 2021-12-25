@@ -6,10 +6,10 @@
 package org.debug.smartdeviceiot.server.signalprocess.filtering.iir;
 
 
-import org.debug.smartdeviceiot.server.signalprocess.Utils.ArrayUtils;
-import org.debug.smartdeviceiot.server.signalprocess.Utils.math.Complex;
-import org.debug.smartdeviceiot.server.signalprocess.Utils.math.PolynomialRootFinderJenkinsTraub;
-import org.debug.smartdeviceiot.server.signalprocess.Utils.math.PolynomialUtils;
+import org.debug.smartdeviceiot.server.signalprocess.utils.math.ArrayUtils;
+import org.debug.smartdeviceiot.server.signalprocess.utils.math.Complex;
+import org.debug.smartdeviceiot.server.signalprocess.utils.math.PolynomialRootFinderJenkinsTraub;
+import org.debug.smartdeviceiot.server.signalprocess.utils.math.PolynomialUtils;
 
 public class BesselFilterDesign {
     private BesselFilterDesign() {

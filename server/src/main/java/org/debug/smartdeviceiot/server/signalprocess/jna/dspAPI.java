@@ -47,6 +47,8 @@ public class dspAPI {
     public native void cmpse(double[] x, double[] y, int n, int m, int mode, int win, double fs, int lag, int nfft, double[] r, double[] freq, double[] sxy, int sdb);
 
     public dspAPI() {
+//        System.load("C:\\Users\\LXZ\\source\\repos\\testJna\\x64\\Release\\testJna.dll");
+//
         System.loadLibrary("testJna");
     }
 

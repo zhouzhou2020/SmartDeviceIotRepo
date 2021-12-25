@@ -7,9 +7,9 @@
 package org.debug.smartdeviceiot.server.signalprocess.filtering.iir;
 
 
-import org.debug.smartdeviceiot.server.signalprocess.Utils.ArrayUtils;
-import org.debug.smartdeviceiot.server.signalprocess.Utils.math.Complex;
-import org.debug.smartdeviceiot.server.signalprocess.Utils.math.PolynomialUtils;
+import org.debug.smartdeviceiot.server.signalprocess.utils.math.ArrayUtils;
+import org.debug.smartdeviceiot.server.signalprocess.utils.math.Complex;
+import org.debug.smartdeviceiot.server.signalprocess.utils.math.PolynomialUtils;
 
 public class IirFilterDesignFisher {
     private IirFilterDesignFisher() {
@@ -250,6 +250,8 @@ public class IirFilterDesignFisher {
      * int filterOrder, double ripple, double fcf1, double fcf2)
      * ripple - Passband ripple in dB. Must be negative. Only used for Chebyshev filter, ignored for other filters.
      * */
+//    public static IirFilterCoefficients design(FilterPassType filterPassType, FilterCharacteristicsType filterCharacteristicsType,
+//      int filterOrder, double ripple, double fcf1, double fcf2){
     public static IirFilterCoefficients design(FilterPassType var0, FilterCharacteristicsType var1, int var2, double var3, double var5, double var7) {
         Complex[] var9 = getPoles(var1, var2, var3);
         IirFilterDesignFisher.SToZMappingMethod var10 = var1 == FilterCharacteristicsType.bessel ? IirFilterDesignFisher.SToZMappingMethod.matchedZTransform : IirFilterDesignFisher.SToZMappingMethod.bilinearTransform;

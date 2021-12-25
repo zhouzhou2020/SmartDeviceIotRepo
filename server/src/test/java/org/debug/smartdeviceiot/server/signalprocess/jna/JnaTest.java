@@ -1,35 +1,53 @@
 package org.debug.smartdeviceiot.server.signalprocess.jna;
 
-import org.debug.smartdeviceiot.server.signalprocess.TemplateSignal.Signal;
-import org.debug.smartdeviceiot.server.signalprocess.TemplateSignal.SignalFileDao;
-import org.debug.smartdeviceiot.server.signalprocess.Utils.OfflineDataUtil;
-import org.debug.smartdeviceiot.server.signalprocess.Utils.Signal1;
+import org.debug.smartdeviceiot.server.BaseTest;
+import org.debug.smartdeviceiot.server.signalprocess.templateSignal.Signal;
+import org.debug.smartdeviceiot.server.signalprocess.templateSignal.SignalFileDao;
+import org.debug.smartdeviceiot.server.signalprocess.utils.OfflineDataUtil;
+import org.debug.smartdeviceiot.server.signalprocess.entity.Signal1;
+import org.junit.Test;
+
 
 import java.util.Arrays;
-import java.util.Deque;
-import java.util.LinkedList;
 
-import static org.debug.smartdeviceiot.server.signalprocess.freqDomain.FreqDomainUtil.nextPow2;
 
-public class JnaTest {
+
+public class JnaTest extends BaseTest {
     public static void main(String[] args){
         System.loadLibrary("testJna");
-
 //        test1();
 //        test2();
 //        test3();
 //        test4();
-
 //        test6();
 //        testReadSignal("");
-
-        System.out.println("Utils.nextPow2(500) = " + (1<< nextPow2(500)));
-//        ArrayList<Integer> integers = new ArrayList<>();
-
+//        System.out.println("utils.nextPow2(500) = " + (1<< nextPow2(500)));
     }
 
+//
+//    @Test
+//    public void testDll() {
+//        DllService.JNAtestJna instanceDll  = (DllService.JNAtestJna) Native.loadLibrary("C:\\Users\\LXZ\\source\\repos\\testJna\\x64\\Release\\testJna.dll", DllService.JNAtestJna.class);
+//        //调用dll普通函数
+////        int sum =instanceDll.add(10,60);
+////        int sum2 =instanceDll.dec(10,20);
+//
+//        double[] y = new double[1001];
+//        for (int i = 0; i < 1001; i++) {
+//            y[i]=Math.sin(i*1.0/100.0);
+//        }
+//
+//
+//        //调用dll回调函数
+//        DllService.JNAtestJna.Cback cc =new DllService.JNAtestJna.CbackIpm();
+//        instanceDll.Handle(cc);
+//
+//        System.out.println(instanceDll.MEAN(y,0,1000));
+//    }
+
     //时域指标
-    public static void test1(){
+    @Test
+    public  void test1(){
         dspAPI tNative = new dspAPI();
 
         double[] y = new double[1001];
@@ -54,7 +72,8 @@ public class JnaTest {
     }
 
     //快速变换
-    public static void test2(){
+    @Test
+    public void test2(){
         dspAPI tNative = new dspAPI();
         int arrLen=128;
         double fs=100;
@@ -103,7 +122,8 @@ public class JnaTest {
     }
 
     //相关&卷积
-    public static void test3(){
+    @Test
+    public void test3(){
         dspAPI dsp= new dspAPI();
         double[] x=new double[16];
         double[] y=new double[16];
@@ -113,7 +133,7 @@ public class JnaTest {
 
         System.arraycopy(tx,0,x,0,7);
         System.arraycopy(ty,0,y,0,6);
-//        dsp.convol(x,y,7,6,16);
+        dsp.convol(x,y,7,6,16);
         System.out.println("-----------convol output----------");
         System.out.println(Arrays.toString(x));
 
@@ -125,7 +145,8 @@ public class JnaTest {
     }
 
     //频域分析谱
-    public static void test4(){
+    @Test
+    public void test4(){
         dspAPI dsp= new dspAPI();
         int fs=100;
         int N=128;
@@ -156,26 +177,14 @@ public class JnaTest {
             System.out.println(v);
         }
 
-
 //        dsp.spectrum(mag,f,xr,xi,N,128,100,1);
-
 //        dsp.emd("D:\\MATLAB\\R2017b\\ecg.txt",1280);
 
-
-
     }
 
-    public static void test5(){
-        Deque<Character> stack=new LinkedList<Character>();
-        stack.push('a');
-        stack.push('b');
-        stack.push('c');
-        System.out.println(stack.peek());
-        System.out.println(stack.pop());
-        System.out.println(stack.peek());
-    }
-
-    public static void test6() {
+    //从本地读文件并算频谱
+    @Test
+    public void test5() {
         byte[] bytes = OfflineDataUtil.fileToByteArray("D:\\MyFile\\LaborWork\\智能装备项目开发\\datasets\\LSdata\\启动水平摆放\\" +
                 "channel3线圈数据40960short_sTime1607326916819");
         short[] shorts = OfflineDataUtil.extractShortsArray(bytes);
@@ -211,28 +220,10 @@ public class JnaTest {
         dspAPI.envelop(mag,xr,n);
         dspAPI.emd("C:\\Users\\LXZ\\source\\repos\\dspLib\\dspLib\\ecg.txt",1280);
 
-
         for (int i = 0; i < 128; i++) {
 //            System.out.println("mag[i] = " + mag[i]);
         }
-
-
-
     }
 
-    public static void testReadSignal(String fname){
-        SignalFileDao signalFileDao = new SignalFileDao();
-        Signal signal = signalFileDao.read("D:\\LSdata\\水平摆放叶轮data.txt");
-        double[] values = signal.getValues();
-        System.out.println("signal.getSamplingFrequency() = " + signal.getSamplingFrequency());
-        System.out.println("signal.getStartTime() = " + signal.getStartTime());
-        System.out.println("signal.getType() = " + signal.getType());
-        System.out.println("signal.getValues().length = " + signal.getValues().length);
-        for (int i = 0; i < 10; i++) {
-            System.out.println(i+":"+values[i]);
-        }
-        signalFileDao.write(signal,"D:\\LSdata\\data.txt");
-
-    }
 
 }

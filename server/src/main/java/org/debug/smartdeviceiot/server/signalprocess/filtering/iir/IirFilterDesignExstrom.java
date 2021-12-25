@@ -7,7 +7,7 @@
 package org.debug.smartdeviceiot.server.signalprocess.filtering.iir;
 
 
-import org.debug.smartdeviceiot.server.signalprocess.Utils.ArrayUtils;
+import org.debug.smartdeviceiot.server.signalprocess.utils.math.ArrayUtils;
 
 /**Calculates the IIR filter coefficients of a Butterworth filter.
  * */
@@ -20,6 +20,14 @@ public class IirFilterDesignExstrom {
      filterOrder - The filter order.
      fcf1 - The relative filter cutoff frequency for lowpass/highpass, lower cutoff frequency for bandpass/bandstop. This value is relative to the sampling rate (see above for more details).
      fcf2 - Ignored for lowpass/highpass, the relative upper cutoff frequency for bandpass/bandstop. This value is relative to the sampling rate (see above for more details).
+     * */
+    /**
+     *         第一个表示选择滤波器类型（低通，高通，带通，带阻），
+     *         第二个参数表示滤波器的阶数，
+     *         第三个参数表示下截止频率，
+     *         第四个参数表示上截止频率，在低通和高通滤波器中只需要一个截止频率，所以在低通和高通中上截止频率是没有作用的。
+     *         只有在带通或者带阻滤波器中才需要两个截止频率。
+     *
      * */
 
     public static IirFilterCoefficients design(FilterPassType var0, int var1, double var2, double var4) {
